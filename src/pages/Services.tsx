@@ -58,7 +58,7 @@ export function Services() {
           >
             <h1 className="text-5xl md:text-6xl font-display font-bold mb-8">Specialized <span className="text-brand-orange italic">Solutions</span></h1>
             <p className="text-xl text-brand-cream/70 leading-relaxed">
-              LJC Capital Consulting provides high-level coordination and strategic consulting across two primary pillars: va;uable assest and seekers of such from our relationships
+              LJC Capital Consulting provides high-level coordination and strategic consulting across two primary pillars: Valuable Assets and Seekers
             </p>
           </motion.div>
         </div>
