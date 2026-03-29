@@ -22,7 +22,7 @@ export function Navbar() {
           <Link to="/" className="flex items-center space-x-3 group">
             <div className="w-20 h-20 rounded-lg bg-white flex items-center justify-center overflow-hidden border border-brand-blue/10 shadow-sm group-hover:border-brand-orange/30 transition-all">
               <img 
-                src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80&w=200" 
+                src="/images/logo.png" 
                 alt="LJC Capital Consulting Logo" 
                 className="w-full h-full object-contain p-1"
                 referrerPolicy="no-referrer"
@@ -94,7 +94,7 @@ export function Footer() {
             <div className="flex items-center space-x-3 mb-6">
               <div className="w-16 h-16 rounded-lg bg-white flex items-center justify-center overflow-hidden border border-white/10">
                 <img 
-                  src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80&w=200" 
+                  src="/images/logo.png" 
                   alt="LJC Capital Consulting Logo" 
                   className="w-full h-full object-contain p-1"
                   referrerPolicy="no-referrer"
