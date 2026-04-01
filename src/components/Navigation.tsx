@@ -105,7 +105,7 @@ export function Footer() {
               </span>
             </div>
             <p className="text-brand-cream/70 max-w-md mb-6">
-              Institutional coordination and consulting firm specializing in digital assets, precious metals, and emerging technologies.
+              Consulting firm specializing in coordination of Valuable Assets and Seekers.
             </p>
             <div className="space-y-3 text-sm">
               <div className="flex items-center space-x-3">

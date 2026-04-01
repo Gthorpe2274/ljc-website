@@ -17,7 +17,7 @@ export function About() {
                 LJC Capital <span className="text-brand-gold italic">Consulting</span>
               </h1>
               <p className="text-xl text-brand-blue/70 mb-8 leading-relaxed">
-                Based in the United States, LJC Capital Consulting is a premier institutional coordination firm. We specialize in the complex intersection of digital assets, precious metals, and emerging sustainable technologies.
+                Based in the United States, LJC Capital Consulting is a firm specializing in Valuable Assets and Seekers.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start space-x-4">
@@ -90,16 +90,16 @@ export function About() {
               </div>
             </div>
 
-            {/* Cynthia Poux */}
+            {/* Cynthia Allende-Poux */}
             <div className="bg-brand-light rounded-[3rem] p-12 border border-brand-blue/5 flex flex-col md:flex-row gap-12 items-center">
               <div className="w-48 h-48 rounded-full bg-brand-gold flex items-center justify-center text-brand-blue text-6xl font-display border-4 border-brand-blue shrink-0">
-                CP
+                CAP
               </div>
               <div>
-                <h3 className="text-3xl font-display font-bold text-brand-blue mb-2">Cynthia Poux</h3>
+                <h3 className="text-3xl font-display font-bold text-brand-blue mb-2">Cynthia Allende-Poux</h3>
                 <p className="text-brand-orange font-bold uppercase tracking-widest text-sm mb-6">Chief Information Officer (CIO)</p>
                 <p className="text-brand-blue/70 mb-8 leading-relaxed">
-                  Cynthia oversees the firm's technological strategy and information systems, ensuring that our digital asset coordination and emerging tech implementations are supported by robust, secure, and scalable infrastructure.
+                  Cynthia oversees the firm's technological strategy and information systems, ensuring that our coordination of Valuable Assets and Seekers is supported by robust, secure, and scalable infrastructure.
                 </p>
                 <div className="flex flex-wrap gap-6">
                   <div className="flex items-center space-x-2 text-brand-blue">

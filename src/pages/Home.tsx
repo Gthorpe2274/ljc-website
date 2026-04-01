@@ -26,7 +26,7 @@ export function Home() {
                 Bridging <span className="text-brand-orange italic">Opportunities</span> & <span className="text-brand-gold">Sources</span>
               </h1>
               <p className="text-xl text-brand-blue/70 mb-10 max-w-lg leading-relaxed">
-                Expert institutional coordination for digital assets, precious metals, and sustainable technologies. We deliver high-impact solutions for a changing global economy.
+                Expert coordination for Valuable Assets and Seekers. We deliver high-impact solutions for a changing global economy.
               </p>
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6">
                 <Link to="/services" className="px-8 py-4 bg-brand-blue text-brand-cream rounded-full font-bold hover:bg-brand-blue/90 transition-all flex items-center justify-center group shadow-xl shadow-brand-blue/20">
@@ -162,7 +162,7 @@ export function Home() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-4xl font-display font-bold text-brand-blue mb-8">Ready to coordinate your next institutional move?</h2>
           <p className="text-lg text-brand-blue/60 mb-12">
-            Connect with our executive leadership to discuss your specific requirements in digital assets, precious metals, or emerging technologies.
+            Connect with our executive leadership to discuss your specific requirements for Valuable Assets and Seekers.
           </p>
           <Link to="/contact" className="inline-flex items-center px-10 py-5 bg-brand-orange text-white rounded-full font-bold hover:scale-105 transition-transform shadow-lg shadow-brand-orange/20">
             Get Started

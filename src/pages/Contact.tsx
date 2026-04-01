@@ -13,7 +13,28 @@ export function Contact() {
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    alert("Thank you for your inquiry. LJC Capital Consulting will contact you shortly.");
+    
+    const formData = new FormData();
+    formData.append("form-name", "contact");
+    Object.entries(formState).forEach(([key, value]) => {
+      formData.append(key, value);
+    });
+
+    fetch("/", {
+      method: "POST",
+      body: formData,
+    })
+      .then(() => {
+        alert("Thank you for your inquiry. LJC Capital Consulting will contact you shortly.");
+        setFormState({
+          name: "",
+          email: "",
+          company: "",
+          subject: "Institutional Coordination",
+          message: ""
+        });
+      })
+      .catch((error) => alert(error));
   };
 
   return (
@@ -23,7 +44,7 @@ export function Contact() {
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl font-display font-bold mb-8">Connect with <span className="text-brand-orange italic">LJC</span></h1>
             <p className="text-xl text-brand-cream/70 leading-relaxed">
-              For institutional inquiries regarding Gold, BTC, USDT, or our emerging technology solutions, please use the form below or contact our executive office directly.
+              For institutional inquiries regarding Valuable Assets and Seekers, please use the form below or contact our executive office directly.
             </p>
           </div>
         </div>
@@ -87,12 +108,20 @@ export function Contact() {
             <div className="lg:col-span-2">
               <div className="bg-white p-12 rounded-[3rem] border border-brand-blue/5 shadow-xl">
                 <h3 className="text-3xl font-display font-bold text-brand-blue mb-10">Inquiry Form</h3>
-                <form onSubmit={handleSubmit} className="space-y-6">
+                <form 
+                  name="contact" 
+                  method="POST" 
+                  data-netlify="true" 
+                  onSubmit={handleSubmit} 
+                  className="space-y-6"
+                >
+                  <input type="hidden" name="form-name" value="contact" />
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
-                      <label className="text-xs font-bold text-brand-blue/60 uppercase tracking-widest ml-1">Full Name</label>
+                      <label id="label-name" className="text-xs font-bold text-brand-blue/60 uppercase tracking-widest ml-1">Full Name</label>
                       <input 
                         type="text" 
+                        name="name"
                         required
                         className="w-full px-6 py-4 bg-brand-light border border-brand-blue/10 rounded-2xl focus:outline-none focus:border-brand-orange transition-colors"
                         placeholder="John Doe"
@@ -101,9 +130,10 @@ export function Contact() {
                       />
                     </div>
                     <div className="space-y-2">
-                      <label className="text-xs font-bold text-brand-blue/60 uppercase tracking-widest ml-1">Email Address</label>
+                      <label id="label-email" className="text-xs font-bold text-brand-blue/60 uppercase tracking-widest ml-1">Email Address</label>
                       <input 
                         type="email" 
+                        name="email"
                         required
                         className="w-full px-6 py-4 bg-brand-light border border-brand-blue/10 rounded-2xl focus:outline-none focus:border-brand-orange transition-colors"
                         placeholder="john@company.com"
@@ -114,9 +144,10 @@ export function Contact() {
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
-                      <label className="text-xs font-bold text-brand-blue/60 uppercase tracking-widest ml-1">Company / Institution</label>
+                      <label id="label-company" className="text-xs font-bold text-brand-blue/60 uppercase tracking-widest ml-1">Company / Institution</label>
                       <input 
                         type="text" 
+                        name="company"
                         className="w-full px-6 py-4 bg-brand-light border border-brand-blue/10 rounded-2xl focus:outline-none focus:border-brand-orange transition-colors"
                         placeholder="Institutional Name"
                         value={formState.company}
@@ -124,8 +155,9 @@ export function Contact() {
                       />
                     </div>
                     <div className="space-y-2">
-                      <label className="text-xs font-bold text-brand-blue/60 uppercase tracking-widest ml-1">Interest Area</label>
+                      <label id="label-subject" className="text-xs font-bold text-brand-blue/60 uppercase tracking-widest ml-1">Interest Area</label>
                       <select 
+                        name="subject"
                         className="w-full px-6 py-4 bg-brand-light border border-brand-blue/10 rounded-2xl focus:outline-none focus:border-brand-orange transition-colors appearance-none"
                         value={formState.subject}
                         onChange={(e) => setFormState({...formState, subject: e.target.value})}
@@ -139,8 +171,9 @@ export function Contact() {
                     </div>
                   </div>
                   <div className="space-y-2">
-                    <label className="text-xs font-bold text-brand-blue/60 uppercase tracking-widest ml-1">Message</label>
+                    <label id="label-message" className="text-xs font-bold text-brand-blue/60 uppercase tracking-widest ml-1">Message</label>
                     <textarea 
+                      name="message"
                       rows={6}
                       required
                       className="w-full px-6 py-4 bg-brand-light border border-brand-blue/10 rounded-2xl focus:outline-none focus:border-brand-orange transition-colors resize-none"
