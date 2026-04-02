@@ -56,7 +56,7 @@ export function PrivacyPolicy() {
                     <h3 className="text-lg font-bold m-0">Information Collection</h3>
                   </div>
                   <p className="text-sm leading-relaxed">
-                    We collect several different types of information for various purposes to provide and improve our Service to you, including personal identification information (Name, email address, phone number, etc.).
+                    We collect several different types of information for various purposes to provide and improve our Service to you, including personal identification information (Name, email address, etc.).
                   </p>
                 </div>
                 <div className="p-6 rounded-2xl bg-brand-blue/5 border border-brand-blue/10">
@@ -112,7 +112,7 @@ export function PrivacyPolicy() {
                 </p>
                 <div className="mt-4 space-y-2 relative z-10">
                   <p className="m-0 font-medium">Email: LPoux@LJCCapitalConsulting.com</p>
-                  <p className="m-0 font-medium">Phone: 626 673-0536</p>
+
                 </div>
               </div>
             </div>

@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Mail, Phone, MapPin, Send, MessageSquare } from "lucide-react";
+import { Mail, MapPin, Send, MessageSquare } from "lucide-react";
 import { useState, FormEvent } from "react";
 
 export function Contact() {
@@ -66,15 +66,7 @@ export function Contact() {
                       <p className="font-bold text-brand-blue">LPoux@LJCCapitalConsulting.com</p>
                     </div>
                   </div>
-                  <div className="flex items-start space-x-4">
-                    <div className="p-3 bg-brand-blue/5 rounded-xl text-brand-orange">
-                      <Phone size={24} />
-                    </div>
-                    <div>
-                      <p className="text-xs font-bold text-brand-blue/40 uppercase tracking-widest mb-1">Phone</p>
-                      <p className="font-bold text-brand-blue">626 673-0536</p>
-                    </div>
-                  </div>
+
                   <div className="flex items-start space-x-4">
                     <div className="p-3 bg-brand-blue/5 rounded-xl text-brand-orange">
                       <MapPin size={24} />

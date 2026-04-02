@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "motion/react";
-import { Menu, X, ChevronRight, Mail, Phone, MapPin, Globe } from "lucide-react";
+import { Menu, X, ChevronRight, Mail, MapPin, Globe } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const navLinks = [
@@ -112,10 +112,7 @@ export function Footer() {
                 <MapPin size={16} className="text-brand-orange" />
                 <span>3291 GARMON Drive, Loganville, GA 30052, USA</span>
               </div>
-              <div className="flex items-center space-x-3">
-                <Phone size={16} className="text-brand-orange" />
-                <span>626 673-0536</span>
-              </div>
+
               <div className="flex items-center space-x-3">
                 <Mail size={16} className="text-brand-orange" />
                 <span>LPoux@LJCCapitalConsulting.com</span>

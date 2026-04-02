@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Mail, Phone, MapPin, Globe, Shield, CheckCircle2 } from "lucide-react";
+import { Mail, MapPin, Globe, Shield, CheckCircle2 } from "lucide-react";
 
 export function About() {
   return (
@@ -82,10 +82,7 @@ export function About() {
                     <Mail size={18} />
                     <span className="text-sm font-medium">LPoux@LJCCapitalConsulting.com</span>
                   </a>
-                  <div className="flex items-center space-x-2 text-brand-blue">
-                    <Phone size={18} />
-                    <span className="text-sm font-medium">626 673-0536</span>
-                  </div>
+
                 </div>
               </div>
             </div>
