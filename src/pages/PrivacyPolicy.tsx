@@ -111,7 +111,7 @@ export function PrivacyPolicy() {
                   If you have any questions about this Privacy Policy, please contact us:
                 </p>
                 <div className="mt-4 space-y-2 relative z-10">
-                  <p className="m-0 font-medium">Email: LPoux@LJCCapitalConsulting.com</p>
+                  <p className="m-0 font-medium">Email: Lou@LJCCapitalConsulting.com</p>
 
                 </div>
               </div>

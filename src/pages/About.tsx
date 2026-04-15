@@ -78,9 +78,9 @@ export function About() {
                   With extensive experience in institutional coordination and strategic consulting, Lou leads LJC Capital Consulting with a focus on transparency, compliance, and high-impact technological solutions.
                 </p>
                 <div className="flex flex-wrap gap-6">
-                  <a href="mailto:LPoux@LJCCapitalConsulting.com" className="flex items-center space-x-2 text-brand-blue hover:text-brand-orange transition-colors">
+                  <a href="mailto:Lou@LJCCapitalConsulting.com" className="flex items-center space-x-2 text-brand-blue hover:text-brand-orange transition-colors">
                     <Mail size={18} />
-                    <span className="text-sm font-medium">LPoux@LJCCapitalConsulting.com</span>
+                    <span className="text-sm font-medium">Lou@LJCCapitalConsulting.com</span>
                   </a>
 
                 </div>
@@ -94,14 +94,14 @@ export function About() {
               </div>
               <div>
                 <h3 className="text-3xl font-display font-bold text-brand-blue mb-2">Cynthia Allende-Poux</h3>
-                <p className="text-brand-orange font-bold uppercase tracking-widest text-sm mb-6">Chief Information Officer (CIO)</p>
+                <p className="text-brand-orange font-bold uppercase tracking-widest text-sm mb-6">Co-CEO</p>
                 <p className="text-brand-blue/70 mb-8 leading-relaxed">
-                  Cynthia oversees the firm's technological strategy and information systems, ensuring that our coordination of Valuable Assets and Seekers is supported by robust, secure, and scalable infrastructure.
+                  As Co-CEO, Cynthia works in partnership with the CEO to effectuate the plans and operations of the company, ensuring that the firm's strategic initiatives are executed with precision across all coordination efforts.
                 </p>
                 <div className="flex flex-wrap gap-6">
                   <div className="flex items-center space-x-2 text-brand-blue">
-                    <Shield size={18} className="text-brand-orange" />
-                    <span className="text-sm font-medium">Information Strategy & Security</span>
+                    <Globe size={18} className="text-brand-orange" />
+                    <span className="text-sm font-medium">Strategic Plans & Operations</span>
                   </div>
                 </div>
               </div>

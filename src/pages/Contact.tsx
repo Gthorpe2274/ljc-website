@@ -63,7 +63,7 @@ export function Contact() {
                     </div>
                     <div>
                       <p className="text-xs font-bold text-brand-blue/40 uppercase tracking-widest mb-1">Email</p>
-                      <p className="font-bold text-brand-blue">LPoux@LJCCapitalConsulting.com</p>
+                      <p className="font-bold text-brand-blue">Lou@LJCCapitalConsulting.com</p>
                     </div>
                   </div>
 
