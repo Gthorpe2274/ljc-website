@@ -73,16 +73,46 @@ export function About() {
               </div>
               <div>
                 <h3 className="text-3xl font-display font-bold text-brand-blue mb-2">Louis Jerome Poux (Lou)</h3>
-                <p className="text-brand-orange font-bold uppercase tracking-widest text-sm mb-6">CEO & Principal Consultant</p>
-                <p className="text-brand-blue/70 mb-8 leading-relaxed">
-                  With extensive experience in institutional coordination and strategic consulting, Lou leads LJC Capital Consulting with a focus on transparency, compliance, and high-impact technological solutions.
-                </p>
+                <p className="text-brand-orange font-bold uppercase tracking-widest text-sm mb-6">CEO &amp; Principal Consultant</p>
+                <div className="text-brand-blue/70 mb-8 leading-relaxed space-y-5">
+                  <p>
+                    As CEO and Principal Consultant of LJC Capital Consulting, Lou provides the strategic vision, institutional discipline, and high‑level advisory leadership that define the firm's global impact. He architects the frameworks, relationships, and execution pathways that enable companies, investors, and counterparties to navigate complex transactions with clarity, confidence, and operational integrity.
+                  </p>
+                  <p>
+                    Lou leads with a dual mandate: <span className="font-semibold text-brand-blue">vision at the top, precision in the details.</span> He sets the strategic direction of the firm while personally overseeing the most critical elements of client engagement—ensuring that every transaction, advisory mandate, and institutional introduction is grounded in compliance, verification, and best‑practice execution.
+                  </p>
+                  <p>
+                    As Principal Consultant, Lou serves as the primary architect of LJC Capital's advisory methodologies. He synthesizes complex corporate, financial, and transactional environments into actionable pathways that support capital strategies, institutional buyer‑seller coordination, and high‑stakes decision‑making. His work spans commodities, digital assets, clean energy, AI, water, and agtech—delivering solutions that are both operationally sound and globally relevant.
+                  </p>
+                  <div>
+                    <p className="font-semibold text-brand-blue mb-3">Lou's leadership is defined by:</p>
+                    <ul className="space-y-2 pl-1">
+                      {[
+                        "Institutional‑grade transaction structuring across commodities, digital assets, and capital markets",
+                        "High‑integrity counterpart coordination, ensuring every engagement is verified, compliant, and strategically aligned",
+                        "Strategic advisory for corporate repositioning, investor readiness, and market expansion",
+                        "Litigation‑ready documentation and procedural rigor that protect clients and counterparties",
+                        "Framework development that elevates industry standards and eliminates ambiguity in complex deals",
+                      ].map((item, idx) => (
+                        <li key={idx} className="flex items-start space-x-3">
+                          <span className="mt-1.5 w-2 h-2 rounded-full bg-brand-orange shrink-0" />
+                          <span className="text-brand-blue/80 text-sm">{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <p>
+                    He is the firm's primary relationship architect—cultivating and managing institutional networks, strategic partners, and high‑value counterparties. His approach blends strategic foresight with operational discipline, enabling LJC Capital Consulting to deliver advisory solutions that are polished, credible, and built for real‑world execution.
+                  </p>
+                  <p>
+                    Through his leadership, LJC Capital Consulting operates with a standard of excellence that prioritizes transparency, accountability, and institutional rigor—empowering clients to move through pivotal moments with clarity and momentum.
+                  </p>
+                </div>
                 <div className="flex flex-wrap gap-6">
                   <a href="mailto:Lou@LJCCapitalConsulting.com" className="flex items-center space-x-2 text-brand-blue hover:text-brand-orange transition-colors">
                     <Mail size={18} />
                     <span className="text-sm font-medium">Lou@LJCCapitalConsulting.com</span>
                   </a>
-
                 </div>
               </div>
             </div>
@@ -93,15 +123,26 @@ export function About() {
                 CAP
               </div>
               <div>
-                <h3 className="text-3xl font-display font-bold text-brand-blue mb-2">Cynthia Allende-Poux</h3>
-                <p className="text-brand-orange font-bold uppercase tracking-widest text-sm mb-6">Co-CEO</p>
-                <p className="text-brand-blue/70 mb-8 leading-relaxed">
-                  As Co-CEO, Cynthia works in partnership with the CEO to effectuate the plans and operations of the company, ensuring that the firm's strategic initiatives are executed with precision across all coordination efforts.
-                </p>
+                <h3 className="text-3xl font-display font-bold text-brand-blue mb-2">Cynthia Allende‑Poux</h3>
+                <p className="text-brand-orange font-bold uppercase tracking-widest text-sm mb-6">Co‑CEO &amp; Chief Operating Officer</p>
+                <div className="text-brand-blue/70 mb-8 leading-relaxed space-y-5">
+                  <p>
+                    Cynthia Allende‑Poux serves as Co‑CEO and Chief Operating Officer of LJC Capital Consulting, where she leads the firm's operational architecture and ensures that every advisory engagement meets the highest standards of institutional excellence. She is the integrator who transforms strategic vision into precise, repeatable execution—aligning people, systems, and processes across the entire organization.
+                  </p>
+                  <p>
+                    Cynthia oversees the full operational lifecycle of LJC Capital's work, including compliance, verification, project delivery, internal systems, and cross‑team coordination. Her leadership ensures that every transaction, advisory mandate, and client engagement moves with clarity, discipline, and momentum.
+                  </p>
+                  <p>
+                    Under her direction, the firm's operational divisions—including Operations, Compliance, Client Delivery, Systems Optimization, and Communications—function as a unified engine capable of supporting complex corporate transformations, capital strategies, and institutional buyer‑seller coordination.
+                  </p>
+                  <p>
+                    Cynthia's commitment to quality, scalability, and operational integrity strengthens LJC Capital Consulting's ability to deliver advisory solutions that are polished, credible, and built for real‑world impact.
+                  </p>
+                </div>
                 <div className="flex flex-wrap gap-6">
                   <div className="flex items-center space-x-2 text-brand-blue">
                     <Globe size={18} className="text-brand-orange" />
-                    <span className="text-sm font-medium">Strategic Plans & Operations</span>
+                    <span className="text-sm font-medium">Operations &amp; Institutional Excellence</span>
                   </div>
                 </div>
               </div>
