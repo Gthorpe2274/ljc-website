@@ -82,7 +82,7 @@ export function Contact() {
                     </div>
                     <div>
                       <p className="text-xs font-bold text-brand-blue/40 uppercase tracking-widest mb-1">Operating Address</p>
-                      <p className="font-bold text-brand-blue">Rosemead, California</p>
+                      <p className="font-bold text-brand-blue">Pasadena, California</p>
                     </div>
                   </div>
                 </div>

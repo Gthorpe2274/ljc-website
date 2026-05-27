@@ -30,7 +30,7 @@ export function About() {
                   <div className="mt-1 p-1 bg-brand-orange/10 rounded-full">
                     <CheckCircle2 size={18} className="text-brand-orange" />
                   </div>
-                  <p className="text-brand-blue/80 font-medium">Global reach with operations in Rosemead, California.</p>
+                  <p className="text-brand-blue/80 font-medium">Global reach with operations in Pasadena, California.</p>
                 </div>
                 <div className="flex items-start space-x-4">
                   <div className="mt-1 p-1 bg-brand-orange/10 rounded-full">
