@@ -109,9 +109,9 @@ export function About() {
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-6">
-                  <a href="mailto:Lou@LJCCapitalConsulting.com" className="flex items-center space-x-2 text-brand-blue hover:text-brand-orange transition-colors">
+                  <a href="mailto:Lou@ljccapcnsltg.com" className="flex items-center space-x-2 text-brand-blue hover:text-brand-orange transition-colors">
                     <Mail size={18} />
-                    <span className="text-sm font-medium">Lou@LJCCapitalConsulting.com</span>
+                    <span className="text-sm font-medium">Lou@ljccapcnsltg.com</span>
                   </a>
                 </div>
               </div>
